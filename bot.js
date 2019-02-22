@@ -19,7 +19,7 @@ client.user.setGame(``,'https://www.twitch.tv/amorycraftxd');                   
 });
 
 client.on('message', message => {
-     if (message.content === "") {
+     if (message.content === "A.help") {
 message.author.send("**A.help**" + `  **
 https://discordapp.com/oauth2/authorize?client_id=546262097470816286&permissions=0&scope=bot:لدعوة البوت
 FZ | Amory | MA#5792: الذي صنع هذا البوت هو
