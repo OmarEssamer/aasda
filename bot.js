@@ -30,7 +30,7 @@ https://discord.gg/Fewz4j6:رابط سيرفر تبع البوت
     }
 });
 
-client.login(process.env.BOT_TOKEN);
+
 
 client.on('message', message => {
     if (message.content === "A.rooms") {
@@ -52,3 +52,5 @@ console.log('User ' + member.user.username + 'Has Joined')
 var role = member.guild.roles.find('name', 'User');
 member.addRole(role)
 });
+
+client.login(process.env.BOT_TOKEN);
